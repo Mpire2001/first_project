@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: plum;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #8deff3, #90f3e5, #9df6d3, #b2f7c0, #cbf6ae, #dfeda0, #f0e397, #ffd995, #ffc79e, #ffb8b7, #ffb1db, #f8b5fe);
 }
 
 code {

@@ -11,12 +11,14 @@ function App() {
     setNum(num-1)
   }
   return (
-    <div>
-      <div id="main__container">
-        <h1>{num}</h1>
-        <div>
-          <button onClick={increment}>Add</button>
-          <button onClick={decrement}>Sub</button>
+    <div id="c">
+      <div>
+        <div id="main__container">
+          <h1>{num}</h1>
+          <div>
+            <button onClick={increment}>Add</button>
+            <button onClick={decrement}>Sub</button>
+          </div>
         </div>
       </div>
     </div>
